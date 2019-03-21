@@ -7,4 +7,10 @@ public class HelloWorldImpl implements HelloWorld {
     public void printHelloWorld(String str) {
         System.out.println(str);
     }
+
+    @Override
+    public void initIt() {
+        System.out.println("Bean created");
+    }
+
 }
